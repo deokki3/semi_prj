@@ -1,0 +1,59 @@
+@charset "UTF-8";
+	/*폰트*/
+	@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300;400&display=swap');
+	body{font-family: 'Noto Sans KR', sans-serif; }
+	
+	*{margin:0px; padding:0px;}
+	body{background: #171721;}
+	#whole{width:800px; margin: 0 auto ; overflow:hidden; }
+	
+	
+	#header{width:800px; height:100px; margin-right:0px; }
+	#header a{color:white; text-decoration:none;}
+	.liInsert{float:right;}
+	
+	#banner{width:800px; height:500px;}
+	
+	/* 컬렉션 제목*/
+	
+	
+	#movies1 h2{color:gold; margin:30px 0px 15px 10px;}
+	#movies2 h2{color:gold; margin:30px 0px 15px 10px;}
+	#movies3 h2{color:gold; margin:30px 0px 15px 10px;}
+	
+	/*메인페이지 좌우 버튼 */
+	.collectionBox{position:relative;}
+	
+	.collectionBox .leftbtn{color:white; font-size:30px; width:40px; height:60px; 
+	position:absolute; margin:auto; top:0; bottom:40px; left:0;
+	 background-color:transparent; border:0px; float:left;}
+	.collectionBox .rightbtn{color:white; font-size:30px; width:40px; height:60px; 
+	position:absolute; margin:auto; top:0; bottom:40px; right:0;
+	 background-color:transparent; border:0px; float:right;}
+	
+	
+	/*메인페이지 좌우 버튼 트랜지션*/
+	#collection1{transition: transform 0.7s;}
+	#collection2{transition: transform 0.7s;}
+	#collection3{transition: transform 0.7s;}
+
+	/* 영화 컬렉션 & 영화 포스터 글씨 등 */
+	.movies_collection1{width:3000px; height:400px; }
+	
+	.movie{width:220px; height:425px; float:left; margin-right:20px; 
+	background-color:#212529; border-radius:10px;}
+	.movie p{color:#F6F6F6; margin-left:10px; font-size:20px;}
+	.movie img{width:220px; height:330px; border-radius:10px;}
+	#title{width:210px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; margin-top:5px;}
+	
+	/* 평점 부분 별 */
+	#star{color:yellow;}
+
+
+	/*리뷰*/
+	.review{width:800px; height:200px; background-color:#212529; margin-bottom:20px;}
+	#review h3{color:white;}
+	#review p{color:white;}
+	
+	
+	

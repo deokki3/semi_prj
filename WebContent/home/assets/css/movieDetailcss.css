@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* 디테일 헤더부분 */
+	#detailheader{width:800px; height:250px;}
+	
+	#detailheader_content{float:right; width:630px; height:250px;}
+	#detailheader_content_in{margin-top:115px;}
+	
+	/*영화 포스터 부분*/
+	#detailheader_image{width:150px; height:250px; float:left;}
+	#detailheader img{width:150px; height:225px; }  
+	
+	/* 헤더쪽 h태그 */	
+	#detailheader_content h1{color:white; float:left;}
+	#detailheader_content h3{color:silver; float:left;}
+	
+	
+	
+	/* 영화제목 부분*/
+	#detailheader #mtitle{width:600px; height:40px; margin:10px 5px 0px 0px;}
+	
+	/* 영화 상세 정보 부분*/
+	#detailheader #movieinfo{width:600px; height:20px; margin:10px 5px 0px 0px;}
+	#movieinfo a{text-decoration:none; }
+	#movieinfo h3{margin-right:5px;}
+	
+	/* 평점 부분*/
+	#detailheader #mrate{width:600px; height:20px; margin:10px 5px 0px 0px;}
+	#mrate h3{margin-right:5px;}
+	#mrate #myrate{float:right;}	
+	
+	
+	
+	#detailheader_content #h3a{float:right; margin-right:10px; margin:10px 5px 0px 0px;}
+	
+	
+	/*디테일 컨텐츠 전체*/
+	#detailContent h3{text-align: center; color:white; margin: 20px 0px 10px 0px;}
+
+	
+	/* 작품정보 부분 */
+	#content {width:800px; height:0 auto; margin: 0px 0px 20px 0px;}
+	
+	#content p{color:white;}
+	
+	/* 좋아요 및 찜하기 부분 */
+	#likediv{width:800px; height:500px; background-color:white;}
+	#unlike{text-align:center; width:30px;height:30px;}
+	#like{text-align:center; width:30px;height:30px;}
+
+	/*리뷰 부분*/
+	#list{width:800px;height:300px; background-color:white; overflow: auto;}
+	
+	/* 예고편 부분 */
+	#preview{width:800px; height:400px; }
+	
+	/* 배우,감독 부분 */
+	.actor img{width:120px; height:150px; border-radius:5px;}
+	.director img{width:120px; height:150px; border-radius:5px;}
+	#actorDirector{width:800px; height:0 auto;}
+	.director{width:120px; height:210px; text-align:cetner;
+	 float:left; margin-left:13px;background-color:#212529; border-radius:5px;}
+	.actor{width:120px; height:210px; float:left; margin-left:13px;
+	 background-color:#212529; border-radius:5px;}
+
+	.director p{color:white;}
+	.actor p{color:white;}
+	#drt{color:silver; text-align:center;}
+	
+	#cnt0{height:200px;}
+	#cnt6{height:400px;}
+	#cnt12{height:600px;}
+	
+	

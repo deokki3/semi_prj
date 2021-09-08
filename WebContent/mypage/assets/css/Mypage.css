@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body{
+  padding: 0;
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+
+
+
+/* 멤버쉽 등급 */
+.grade{
+  color: #FAED7D;
+}
+
+.wrap{
+  background-color: #F8F8F8;  
+}
+/* 검정배경 */
+.blackContainer{  
+  height: 132px;
+  background-color: #000000;  
+  
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+}
+
+.blackContainer .name{
+   font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  
+} 
+.blackContainer .modify{
+  margin-left: auto;
+}
+
+/* 찜목록 , 1:1 문의 내역 , 적립금 박스 */
+.summaryContainer{
+  background-color: white;  
+  display: flex;  
+  padding: 21px 16px;  
+  height: 90px;
+  margin-bottom: 10px;
+}
+/* 찜목록 , 1:1 문의 내역 , 적립금 */
+.summaryContainer .item{
+  flex-grow: 1
+}
+/*  숫자 */
+.summaryContainer .number{
+  font-size: 19px;
+  font-weight: bold;
+  color: #000000;
+}
+/* 텍스트 */
+.summaryContainer .item > div:nth-child(2){
+  font-size: 13px;
+}
+
+
+/*=================== 회원정보~ 내지갑 리스트 ==================*/
+.listContainer{  
+  padding: 0;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.listContainer .item{  
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  color: black;
+  text-decoration: none;  
+  height: 56px;
+  box-sizing: border-box;
+}
+.listContainer .icon{  
+  margin-right: 14px;
+}
+.listContainer .text{
+  font-size: 16px;
+  position: relative;
+}
+.listContainer .right{
+  margin-left: auto;
+}
+
+
+/*=================== 내지갑의 보유 적립금 들어가는 부분 ================*/
+.listContainer .smallLight{
+  font-size: 14px;
+  color: #c2c2c2;  
+}
+.listContainer .smallLight > span{
+  margin-left: 10px;
+}
+
+.listContainer .right .blct{
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+/* 공지사항 이용안내 고객센터 */
+.infoContainer{
+  background-color: white; 
+  display: flex;
+  height: 100px;
+  margin-bottom: 10px;    
+}
+
+.infoContainer .item{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+.infoContainer .item > div:first-child{
+  margin-bottom: 2px;
+}
+
+
+
